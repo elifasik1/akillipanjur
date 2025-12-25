@@ -1,0 +1,13 @@
+prefix=c:/Users/elifa/Desktop/akillipanjur/.conda/Library
+exec_prefix=c:/Users/elifa/Desktop/akillipanjur/.conda/Library
+libdir=c:/Users/elifa/Desktop/akillipanjur/.conda/Library/lib
+sharedlibdir=c:/Users/elifa/Desktop/akillipanjur/.conda/Library/lib
+includedir=c:/Users/elifa/Desktop/akillipanjur/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

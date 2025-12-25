@@ -1,0 +1,37 @@
+:root { --primary: #4a90e2; --bg: #f0f4f8; --success: #76c893; --danger: #f48c8c; }
+
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    background: linear-gradient(135deg, #e0f2fe 0%, #f0f4f8 100%); 
+    margin: 0; display: flex; flex-direction: column; align-items: center; min-height: 100vh;
+}
+
+.top-bar { width: 100%; background: #5dade2; color: white; padding: 12px 20px; display: flex; justify-content: space-between; box-sizing: border-box; }
+
+.container { width: 100%; max-width: 600px; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+
+.status-card { 
+    background: white; width: 100%; max-width: 400px; margin: 15px 0; padding: 25px; 
+    border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); box-sizing: border-box;
+}
+
+.control-section { display: flex; flex-direction: column; align-items: center; gap: 15px; width: 100%; margin: 20px 0; }
+
+.btn-group { display: flex; justify-content: center; gap: 10px; width: 100%; }
+
+.btn { padding: 12px 20px; border-radius: 10px; border: none; cursor: pointer; font-weight: 600; min-width: 130px; transition: 0.3s; }
+.btn-primary { background: var(--primary); color: white; }
+.btn-outline { background: #f8fafc; color: #475569; border: 1px solid #cbd5e0; }
+.btn-success { background: var(--success); color: white; }
+.btn-danger { background: var(--danger); color: white; }
+
+.chart-box { height: 350px; width: 100%; max-width: 500px; display: flex; flex-direction: column;padding: 15px;box-sizing: border-box;overflow: hidden; }
+#sensorChart { width: 100% !important; height: 100% !important;display: block; }
+
+.toast-container { position: fixed; top: 20px; right: 20px; z-index: 1000; }
+.toast { background: white; padding: 15px 25px; border-radius: 10px; margin-bottom: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); border-left: 5px solid var(--primary); animation: slideIn 0.5s ease; }
+.toast.danger { border-left-color: var(--danger); }
+
+@keyframes slideIn { from { transform: translateX(100%); } to { transform: translateX(0); } }
+
+@media (max-width: 480px) { .btn-group { flex-direction: column; align-items: center; } .btn { width: 100%; } }
