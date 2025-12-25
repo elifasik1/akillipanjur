@@ -1,6 +1,6 @@
 # 🏠 Akıllı Panjur Otomasyon Sistemi
 
-Bu proje, IoT tabanlı bir akıllı panjur kontrol sisteminin web tabanlı bir dashboard üzerinden yönetimini ve sensör verilerinin (Işık, Sıcaklık, Nem) gerçek zamanlı analizini kapsayan bir **Bilgisayar Mühendisliği** çalışmasıdır.
+Bu proje, IoT tabanlı bir akıllı panjur kontrol sisteminin web tabanlı bir dashboard üzerinden yönetimini ve sensör verilerinin (Işık, Sıcaklık, Nem) gerçek zamanlı analizini kapsayan bir çalışmadır.
 
 ## 🚀 Proje Özellikleri
 
